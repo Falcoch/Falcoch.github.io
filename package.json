@@ -6,6 +6,7 @@
     "main": "source/node.js",
     "scripts": {
         "start": "vite",
+        "build": "vite build",
         "deploy": "gh-pages -d dist"
     },
     "author": "",

@@ -22,4 +22,6 @@ export default defineConfig(
         "@": resolve(__dirname, "./source/"),
         },
     },
+
+    base: '/Falcoch/',
 });
