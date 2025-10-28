@@ -17,6 +17,7 @@ body
 .left-section
 {
     display: inline-block;
+    padding-top: 128px;
 }
 
 .middle-section
@@ -29,6 +30,27 @@ body
 {
     display: inline-block;
     padding-top: 128px;
+}
+
+@media only screen and (max-width: 1400px) 
+{
+    .left-section
+    {
+        visibility: hidden;
+        height: 0;
+    }
+
+    .middle-section
+    {
+        padding: 0px 128px 0px 128px;
+    }
+
+    .right-section
+    {
+        visibility: hidden;
+        height: 0;
+    }
+
 }
 
 .title-section
